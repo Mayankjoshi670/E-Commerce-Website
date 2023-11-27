@@ -1,0 +1,33 @@
+.pageHeder{
+    background-image: url("img/banner/b19.jpg");
+}
+.Blog{
+    padding: 150px 150px 0 150px;
+}
+.Blog .blogBox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+.Blog .blogimage{
+    width: 50%;
+    margin-right: 40px;
+}
+.blogDetails p,
+.blogDetails h4
+{
+    padding-left: 150px;
+
+}
+.Blog img{
+    width: 230%;
+    height: 300px;
+    object-fit: cover;
+}
+.blogBox:nth-child(2) h4,
+.blogBox:nth-child(2) p
+{
+    padding-left: 300px;
+}
